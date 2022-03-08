@@ -82,3 +82,75 @@ Running main() from /home/student/cpp/test_samples/build/_deps/googletest-src/go
 [  PASSED  ] 6 tests.
 
 ```
+
+## Another way of running tests.
+
+```
+cd build
+ctest --verbose
+```
+
+**Output**:
+```
+UpdateCTestConfiguration  from :/home/student/cpp/test_samples/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/home/student/cpp/test_samples/build/DartConfiguration.tcl
+Test project /home/student/cpp/test_samples/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: hello_test
+
+1: Test command: /home/student/cpp/test_samples/build/hello_test
+1: Test timeout computed to be: 10000000
+1: Running main() from /home/student/cpp/test_samples/build/_deps/googletest-src/googletest/src/gtest_main.cc
+1: [==========] Running 1 test from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 1 test from HelloTest
+1: [ RUN      ] HelloTest.BasicAssertions
+1: [       OK ] HelloTest.BasicAssertions (0 ms)
+1: [----------] 1 test from HelloTest (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 1 test from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 1 test.
+1/2 Test #1: hello_test .......................   Passed    0.00 sec
+test 2
+    Start 2: sample1_test
+
+2: Test command: /home/student/cpp/test_samples/build/sample1_test
+2: Test timeout computed to be: 10000000
+2: Running main() from /home/student/cpp/test_samples/build/_deps/googletest-src/googletest/src/gtest_main.cc
+2: [==========] Running 6 tests from 2 test suites.
+2: [----------] Global test environment set-up.
+2: [----------] 3 tests from FactorialTest
+2: [ RUN      ] FactorialTest.Negative
+2: [       OK ] FactorialTest.Negative (0 ms)
+2: [ RUN      ] FactorialTest.Zero
+2: [       OK ] FactorialTest.Zero (0 ms)
+2: [ RUN      ] FactorialTest.Positive
+2: [       OK ] FactorialTest.Positive (0 ms)
+2: [----------] 3 tests from FactorialTest (0 ms total)
+2: 
+2: [----------] 3 tests from IsPrimeTest
+2: [ RUN      ] IsPrimeTest.Negative
+2: [       OK ] IsPrimeTest.Negative (0 ms)
+2: [ RUN      ] IsPrimeTest.Trivial
+2: [       OK ] IsPrimeTest.Trivial (0 ms)
+2: [ RUN      ] IsPrimeTest.Positive
+2: [       OK ] IsPrimeTest.Positive (0 ms)
+2: [----------] 3 tests from IsPrimeTest (0 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 6 tests from 2 test suites ran. (0 ms total)
+2: [  PASSED  ] 6 tests.
+2/2 Test #2: sample1_test .....................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.00 sec
+
+```

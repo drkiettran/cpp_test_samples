@@ -36,5 +36,8 @@ target_link_libraries(
 )
 
 include(GoogleTest)
-gtest_discover_tests(hello_test)
+add_test(NAME hello_test COMMAND hello_test)
+add_test(NAME sample1_test COMMAND sample1_test)
+
+# gtest_discover_tests(hello_test sample1_test)
 

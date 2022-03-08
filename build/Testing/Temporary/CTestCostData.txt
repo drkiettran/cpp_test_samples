@@ -1,0 +1,12 @@
+HelloTest.BasicAssertions 2 0.0007098
+FactorialTest.Negative 4 0.000428283
+FactorialTest.Zero 4 0.000374037
+FactorialTest.Positive 4 0.000437118
+IsPrimeTest.Negative 4 0.000435505
+IsPrimeTest.Trivial 4 0.00058613
+IsPrimeTest.Positive 4 0.00057515
+HelloTest.BasicAssertions 2 0.0007098
+HelloTest.BasicAssertions 1 0.00156345
+hello_test 5 0.000349548
+sample1_test 5 0.000292715
+---
