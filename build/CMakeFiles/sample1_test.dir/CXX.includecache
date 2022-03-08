@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/student/cpp/test_samples/sample1.cc
+sample1.h
+/home/student/cpp/test_samples/sample1.h
+
 /home/student/cpp/test_samples/sample1.h
 
 /home/student/cpp/test_samples/sample1_unittest.cc
