@@ -1,3 +1,0 @@
-hello_test 2 0.00182097
-sample1_test 2 0.00204813
----
