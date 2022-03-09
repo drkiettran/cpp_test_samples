@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/student/cpp/test_samples/build/_deps/googletest-src/googlemock/src/gmock_main.cc
+/home/kiet/dev/cpp/cpp_test_samples/build/_deps/googletest-src/googlemock/src/gmock_main.cc
 iostream
 -
 gmock/gmock.h
-/home/student/cpp/test_samples/build/_deps/googletest-src/googlemock/src/gmock/gmock.h
+/home/kiet/dev/cpp/cpp_test_samples/build/_deps/googletest-src/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-/home/student/cpp/test_samples/build/_deps/googletest-src/googlemock/src/gtest/gtest.h
+/home/kiet/dev/cpp/cpp_test_samples/build/_deps/googletest-src/googlemock/src/gtest/gtest.h
 tchar.h
 -
 

@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/student/cpp/test_samples/sample1.cc
+/home/kiet/dev/cpp/cpp_test_samples/sample1.cc
 sample1.h
-/home/student/cpp/test_samples/sample1.h
+/home/kiet/dev/cpp/cpp_test_samples/sample1.h
 
-/home/student/cpp/test_samples/sample1.h
+/home/kiet/dev/cpp/cpp_test_samples/sample1.h
 
-/home/student/cpp/test_samples/sample1_unittest.cc
+/home/kiet/dev/cpp/cpp_test_samples/sample1_unittest.cc
 limits.h
 -
 sample1.h
-/home/student/cpp/test_samples/sample1.h
+/home/kiet/dev/cpp/cpp_test_samples/sample1.h
 gtest/gtest.h
-/home/student/cpp/test_samples/gtest/gtest.h
+/home/kiet/dev/cpp/cpp_test_samples/gtest/gtest.h
 
 _deps/googletest-src/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

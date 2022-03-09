@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/student/cpp/test_samples/build/_deps/googletest-src/googlemock/src/gmock-all.cc
+/home/kiet/dev/cpp/cpp_test_samples/build/_deps/googletest-src/googlemock/src/gmock-all.cc
 gmock/gmock.h
-/home/student/cpp/test_samples/build/_deps/googletest-src/googlemock/src/gmock/gmock.h
+/home/kiet/dev/cpp/cpp_test_samples/build/_deps/googletest-src/googlemock/src/gmock/gmock.h
 src/gmock-cardinalities.cc
-/home/student/cpp/test_samples/build/_deps/googletest-src/googlemock/src/src/gmock-cardinalities.cc
+/home/kiet/dev/cpp/cpp_test_samples/build/_deps/googletest-src/googlemock/src/src/gmock-cardinalities.cc
 src/gmock-internal-utils.cc
-/home/student/cpp/test_samples/build/_deps/googletest-src/googlemock/src/src/gmock-internal-utils.cc
+/home/kiet/dev/cpp/cpp_test_samples/build/_deps/googletest-src/googlemock/src/src/gmock-internal-utils.cc
 src/gmock-matchers.cc
-/home/student/cpp/test_samples/build/_deps/googletest-src/googlemock/src/src/gmock-matchers.cc
+/home/kiet/dev/cpp/cpp_test_samples/build/_deps/googletest-src/googlemock/src/src/gmock-matchers.cc
 src/gmock-spec-builders.cc
-/home/student/cpp/test_samples/build/_deps/googletest-src/googlemock/src/src/gmock-spec-builders.cc
+/home/kiet/dev/cpp/cpp_test_samples/build/_deps/googletest-src/googlemock/src/src/gmock-spec-builders.cc
 src/gmock.cc
-/home/student/cpp/test_samples/build/_deps/googletest-src/googlemock/src/src/gmock.cc
+/home/kiet/dev/cpp/cpp_test_samples/build/_deps/googletest-src/googlemock/src/src/gmock.cc
 
 _deps/googletest-src/googlemock/include/gmock/gmock-actions.h
 errno.h

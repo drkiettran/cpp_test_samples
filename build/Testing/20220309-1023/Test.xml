@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220309-1023-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.16.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="kiet-VirtualBox"
+	OSRelease="5.13.0-28-generic"
+	OSVersion="#31~20.04.1-Ubuntu SMP Wed Jan 19 14:08:10 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="113"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="32105"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="3800"
+	>
+	<Testing>
+		<StartDateTime>Mar 09 05:23 EST</StartDateTime>
+		<StartTestTime>1646821421</StartTestTime>
+		<TestList>
+			<Test>./sample1_test</Test>
+			<Test>./hello_test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>sample1_test</Name>
+			<Path>.</Path>
+			<FullName>./sample1_test</FullName>
+			<FullCommandLine>/home/kiet/dev/cpp/cpp_test_samples/build/sample1_test</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0024114</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kiet/dev/cpp/cpp_test_samples/build/sample1_test</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNk01PhDAQhu/8ijkuB6jRxJsHE11jTFbCrhcJIV0YsbEfpC349+VLAsrHTkLIMM+803lDw1JKJnMQlMmdCx9aCSCfSiD5YmhJhhVJi6J5EovGJoaKgqMh55LxjCQZFobkSuUcm7JndDpKSZu2fY2+n6ZOdDdEDGE//BYaxnTTr9sETMnqt+9E3hAxPHF1prwDUFZMKylQ1jBaryz+wDdj1T1NrdKM8lP9zYkgfDtAG/G05B8wp5ZVWDNdvL4sMrC7AmHcNbl31GpNqqlfIBMow7ZO9csMcpeZ0eFglaXcdVa6nk2gmcD/Bo4KC/bNEbNbj8GTZlV9xmWlHtgUmjdvjti2btS1ZtzSj2qRai9T33J6EZYvAGgq/emkeovg/nh8fGj27Dt95wdK/i5K====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>hello_test</Name>
+			<Path>.</Path>
+			<FullName>./hello_test</FullName>
+			<FullCommandLine>/home/kiet/dev/cpp/cpp_test_samples/build/hello_test</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00208142</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/kiet/dev/cpp/cpp_test_samples/build/hello_test</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkN1KxDAQhe/zFHO5vWiiD+DFiqIgqHT1qpSSTWdrMH9k0vX1bZpl3RWUPRDIyXyZw0wzOafdCFZqt6pgF70F8eEtik+NSQy4FyqEfPqElHqSNhgksZ20GUQ/YCAxej8azOWaojqxYrHLv9yfK8Xam6M6aA7h15CZEn6406QTctbWR3XwYPxWmlJHt9fRO4tuZjHVU/gFn/Z8RGP822xZC837Myzqfp75rSSt1kQYk/aOZqzo5ek/DFZXYKm6ILeQkHySpmKXTZVQxnrwX+58Z3/tCqJ0/DxnnuJ1vdnc3+VhC8vZN43Kn9I=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Mar 09 05:23 EST</EndDateTime>
+		<EndTestTime>1646821421</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

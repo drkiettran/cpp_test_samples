@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/cpp/test_samples
+CMAKE_SOURCE_DIR = /home/kiet/dev/cpp/cpp_test_samples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/cpp/test_samples/build
+CMAKE_BINARY_DIR = /home/kiet/dev/cpp/cpp_test_samples/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sample1_test.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/sample1_test.dir/flags.make
 
 CMakeFiles/sample1_test.dir/sample1.cc.o: CMakeFiles/sample1_test.dir/flags.make
 CMakeFiles/sample1_test.dir/sample1.cc.o: ../sample1.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/cpp/test_samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sample1_test.dir/sample1.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample1_test.dir/sample1.cc.o -c /home/student/cpp/test_samples/sample1.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kiet/dev/cpp/cpp_test_samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sample1_test.dir/sample1.cc.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample1_test.dir/sample1.cc.o -c /home/kiet/dev/cpp/cpp_test_samples/sample1.cc
 
 CMakeFiles/sample1_test.dir/sample1.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample1_test.dir/sample1.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/cpp/test_samples/sample1.cc > CMakeFiles/sample1_test.dir/sample1.cc.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kiet/dev/cpp/cpp_test_samples/sample1.cc > CMakeFiles/sample1_test.dir/sample1.cc.i
 
 CMakeFiles/sample1_test.dir/sample1.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample1_test.dir/sample1.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/cpp/test_samples/sample1.cc -o CMakeFiles/sample1_test.dir/sample1.cc.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kiet/dev/cpp/cpp_test_samples/sample1.cc -o CMakeFiles/sample1_test.dir/sample1.cc.s
 
 CMakeFiles/sample1_test.dir/sample1_unittest.cc.o: CMakeFiles/sample1_test.dir/flags.make
 CMakeFiles/sample1_test.dir/sample1_unittest.cc.o: ../sample1_unittest.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/cpp/test_samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sample1_test.dir/sample1_unittest.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample1_test.dir/sample1_unittest.cc.o -c /home/student/cpp/test_samples/sample1_unittest.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kiet/dev/cpp/cpp_test_samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sample1_test.dir/sample1_unittest.cc.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample1_test.dir/sample1_unittest.cc.o -c /home/kiet/dev/cpp/cpp_test_samples/sample1_unittest.cc
 
 CMakeFiles/sample1_test.dir/sample1_unittest.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample1_test.dir/sample1_unittest.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/cpp/test_samples/sample1_unittest.cc > CMakeFiles/sample1_test.dir/sample1_unittest.cc.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kiet/dev/cpp/cpp_test_samples/sample1_unittest.cc > CMakeFiles/sample1_test.dir/sample1_unittest.cc.i
 
 CMakeFiles/sample1_test.dir/sample1_unittest.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample1_test.dir/sample1_unittest.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/cpp/test_samples/sample1_unittest.cc -o CMakeFiles/sample1_test.dir/sample1_unittest.cc.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kiet/dev/cpp/cpp_test_samples/sample1_unittest.cc -o CMakeFiles/sample1_test.dir/sample1_unittest.cc.s
 
 # Object files for target sample1_test
 sample1_test_OBJECTS = \
@@ -94,10 +94,10 @@ sample1_test_EXTERNAL_OBJECTS =
 sample1_test: CMakeFiles/sample1_test.dir/sample1.cc.o
 sample1_test: CMakeFiles/sample1_test.dir/sample1_unittest.cc.o
 sample1_test: CMakeFiles/sample1_test.dir/build.make
-sample1_test: lib/libgtest_main.a
-sample1_test: lib/libgtest.a
+sample1_test: lib/libgtest_maind.a
+sample1_test: lib/libgtestd.a
 sample1_test: CMakeFiles/sample1_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/cpp/test_samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sample1_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kiet/dev/cpp/cpp_test_samples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sample1_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample1_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/sample1_test.dir/clean:
 .PHONY : CMakeFiles/sample1_test.dir/clean
 
 CMakeFiles/sample1_test.dir/depend:
-	cd /home/student/cpp/test_samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/cpp/test_samples /home/student/cpp/test_samples /home/student/cpp/test_samples/build /home/student/cpp/test_samples/build /home/student/cpp/test_samples/build/CMakeFiles/sample1_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kiet/dev/cpp/cpp_test_samples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kiet/dev/cpp/cpp_test_samples /home/kiet/dev/cpp/cpp_test_samples /home/kiet/dev/cpp/cpp_test_samples/build /home/kiet/dev/cpp/cpp_test_samples/build /home/kiet/dev/cpp/cpp_test_samples/build/CMakeFiles/sample1_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sample1_test.dir/depend
 
